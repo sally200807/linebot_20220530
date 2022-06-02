@@ -43,7 +43,7 @@ def handle_message(event):
 
     if msg == hi:
         r = "朋友你好，我是測試機器人"
-    elif msg == "你吃飽沒"
+    elif msg == "你吃飽沒":
         r = "我吃飽了!因為我有剛剛你的支持!"
     line_bot_api.reply_message(
         event.reply_token,
